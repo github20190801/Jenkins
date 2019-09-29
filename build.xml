@@ -3,7 +3,7 @@
     <property name="integrationJacocoexecPath" value="./jacoco-integration.exec"/>
    
     <path id="class.path">
-        <fileset dir="D:\program\apache-ant-1.10.7\lib">
+        <fileset dir="lib">
             <include name="**/*.jar" />
         </fileset>
     </path>
