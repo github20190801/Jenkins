@@ -13,6 +13,6 @@
     </taskdef>
    
     <target name="dump">
-        <jacoco:dump address="10.30.7.213" port="8494" reset="true" destfile="${integrationJacocoexecPath}" append="false"/>
+        <jacoco:dump address="127.0.0.1" port="8494" reset="true" destfile="${integrationJacocoexecPath}" append="false"/>
     </target>
 </project>
